@@ -1,1 +1,17 @@
-
+<xml>
+	<summary>Checkbox on registration form isn't available</summary>
+	<ID>REG-1208</ID>
+  <project>SiteToTest</project>
+	<status>open</status>
+	<priority>high</priority>,
+	<severity>major</severity>
+  <enviroment>staging</enviroment>
+	<actual_result>agreement checkbox on registration form isn't available. Registration button is blocked</actual_result>
+	<expected_result>checkbox is available to change, registration button is available</expected_result>
+	<steps_to_reproduce>
+                          <step1>open www.sitetotest.com </step1>
+                          <step2>push Join button</step2>
+                          <step3>fill form with correct information</step3>
+                          <step4>change the checkbox</step4>
+        </steps_to_reproduce>
+</xml>
